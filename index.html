@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <title>Mortgage Calculator</title>
+    
+    <title>Calculate Wages</title>
+    <script src="code.js" defer></script>
 </head>
 <body>
-    <h1>Mortgage Calculator</h1>
-    <h2>Loan Amount:</h2>
-    <input type="number" id="loanAmount" placeholder="Enter loan amount">
+    <h1>Please enter your data:</h1>
+    <h1>Normal Hours:</h1>
+    <input type="number" id="normal_Hours" placeholder="Enter normal hours">
 
-    <h2>Years Borrowed:</h2>
-    <input type="number" id="loanTerm" placeholder="Enter loan term">
+    <h1>Normal Rate:</h1>
+    <input type="number" id="normal_Rate" placeholder="Enter normal rate">
+
+    <h1>Overtime Rate:</h1>
+    <input type="number" id="overtime_Rate" placeholder="Enter overtime rate">
+
+    <h1>Hours Worked:</h1>
+    <input type="number" id="hours_Worked" placeholder="Enter hours worked">
     
-    <h2>Annual Interest Rate (%):</h2>
-    <input type="number" id="interestRate" placeholder="Enter interest rate">
-    
+    <h1>You Earned:</h1>
     <h1 id="result"></h1>
-    <button id="calculateBtn">Calculate</button>   
-    
-    <script src="code.js"></script>
-
-    
+    <button id="btn">Calculate</button>
 </body>
 </html>
